@@ -1,0 +1,25 @@
+@font-face {
+    font-family: hashvill;
+    src: url(fonts/hashvill.ttf);
+}
+
+@font-face {
+    font-family: duality;
+    src: url(fonts/duality.ttf);
+}
+
+html {
+    border: 1px solid red;
+    background-image: url(images/arizona.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left center;
+}
+
+body {
+    font-family: duality;
+}
+
+h1, h2 {
+    font-family: hashvill;
+}
